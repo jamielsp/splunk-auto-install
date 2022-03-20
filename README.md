@@ -6,3 +6,4 @@ It is not recommended to run the script in a real environment without knowing it
 The script is made to run on CentOS and the following dependencies are required.
 
 - wget
+- git
