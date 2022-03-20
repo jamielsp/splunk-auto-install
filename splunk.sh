@@ -31,7 +31,7 @@ extr_mv_splunk_file () {
 inst_splunk () {
 	cd /opt/splunk/bin/
 	./splunk start --accept-license
-	cat finished	
+	sudo cat finished	
 }
 
 
