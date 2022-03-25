@@ -51,7 +51,7 @@ splunk_root
 #---------------Downloading resourses 
 
 echo "DOWNLOADING PACKETS"
-#wget -O splunk-8.2.5-77015bc7a462-Linux-x86_64.tgz "https://download.splunk.com/products/splunk/releases/8.2.5/linux/splunk-8.2.5-77015bc7a462-Linux-x86_64.tgz" --progress=bar:force 2>&1 | tail -f -n +6 
+wget -O splunk-8.2.5-77015bc7a462-Linux-x86_64.tgz "https://download.splunk.com/products/splunk/releases/8.2.5/linux/splunk-8.2.5-77015bc7a462-Linux-x86_64.tgz" --progress=bar:force 2>&1 | tail -f -n +6 
 
 
 
